@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+/*Common styles*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: "Nunito",sans-serif;
+  font-weight: 400;
+}
+
+html{
+  font-size: 62.5%;
+}
+/*common styles end*/
+
+/*section-1*/
+ .section-1{
+   width: 100%;
+   height: 100vh;
+   background-color: whitesmoke);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+ }
+
+ .section-heading{
+   font-size: 12rem;
+   text-align: center;
+   color: rgb(134, 121, 121);
+   text-transform: capitalize;
+   font-weight: 900;
+   letter-spacing: 0.4rem;
+   text-shadow: 0.4rem 0.4rem 0.4rem black;
+ }
+
+.mushrooms img{
+  width: 100%;
+  border-radius: 10px;
+  width: fit-content;
+  image-orientation: from-image;
+  border: 1px solid #ddd;
+  padding: 7px;
+}
+/*End of section-1*/
+
+/*section-2*/
+p{
+  font-size: 20px;
+  tex
+}
+
+
+/*end of section-2*/
