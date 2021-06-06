@@ -48,6 +48,7 @@ html{
    position: relative;
    z-index: 1;
    background-color: rgb(156, 41, 41);
+   border-radius: 15%;
  }
 
 .mushrooms img{
