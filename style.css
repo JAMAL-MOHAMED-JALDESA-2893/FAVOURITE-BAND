@@ -71,12 +71,16 @@ p{
 }
 
 li{
-  font-size: 5rem;
+  font-size: 3rem;
  padding: auto;
   margin: 0px;
-
+ font-style: italic;
 }
 
+.list{
+  padding: 4rem;
+  padding-top: 1rem;
+}
 
 
 .section-2-container{
@@ -86,7 +90,7 @@ li{
 
 /*profiles*/
  .profiles{
-     padding: 3rem ;
+     padding: 1rem ;
      position: relative;
      background-color: lightgrey;
  }
