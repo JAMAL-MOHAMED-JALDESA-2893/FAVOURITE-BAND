@@ -63,7 +63,7 @@ li{
 
 /*profiles*/
  .profiles{
-     padding: 10rem 0;
+     padding: 5rem 0;
  }
 
  .profile-wrapper{
@@ -78,6 +78,12 @@ li{
    margin: 5rem;
    width: 70%;
    box-shadow: 0 2rem 5rem darkslategrey ;
+   transform: skewX(20deg);
+ }
+
+ .kalama{
+   transform: skewX(-20deg);
+   display: flex;
  }
 
  .profile-image{
@@ -85,6 +91,26 @@ li{
    height: 25rem;
    border-radius: 50%;
    object-fit: cover;
-  
+  margin-right: 3rem;
+ }
+
+ .paragraph{
+   font-size: 1.8rem;
+   color: rgb(124, 98, 98);
+ }
+
+ .paragraph::first-letter{
+   margin-left: 1rem;
+ }
+
+ .profile-text{
+   letter-spacing: 0.1rem;
+ }
+
+ .profile-heading{
+   font-size: 3rem;
+   text-transform: uppercase;
+   color: darkslategray;
+   margin-bottom: 1rem;
  }
 /*End pf profiles*/
