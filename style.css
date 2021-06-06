@@ -55,7 +55,7 @@ html{
   border: 1px solid #ddd;
   padding: 7px;
   position: relative;
-  
+ 
 }
 /*End of section-1*/
 
@@ -70,20 +70,35 @@ p{
   padding: 3rem;
 }
 
+p::first-letter{
+  margin-left: 3rem;
+}
+
 li{
   font-size: 3rem;
   margin: 0px;
  font-style: italic;
 }
 
+a{
+  color: rgb(87, 48, 26);
+  font-weight: lighter;
+}
+
+a:hover{
+  color: cadetblue;
+}
+
 .list{
   padding: 4rem;
   padding-top: 1rem;
+  padding-left: 7rem;
+  background-color: rgb(134, 89, 89);
 }
 
 
 .section-2-container{
-  background-color: lightgrey;
+  background-color: rgb(134, 89, 89);
 }
 /*end of section-2*/
 
@@ -91,7 +106,7 @@ li{
  .profiles{
      padding: 1rem ;
      position: relative;
-     background-color: lightgrey;
+     background-color: rgb(134, 89, 89);
  }
 
  
