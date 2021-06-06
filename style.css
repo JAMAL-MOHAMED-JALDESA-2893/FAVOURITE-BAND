@@ -25,16 +25,27 @@ html{
    flex-direction: column;
    align-items: center;
    justify-content: space-evenly;
+   position: relative;
+ }
+
+
+ .bg-video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
  }
 
  .section-heading{
    font-size: 12rem;
    text-align: center;
-   color: rgb(134, 121, 121);
+   color: rgb(189, 83, 83);
    text-transform: capitalize;
    font-weight: 900;
    letter-spacing: 0.4rem;
    text-shadow: 0.4rem 0.4rem 0.4rem black;
+   position: relative;
  }
 
 .mushrooms img{
@@ -44,6 +55,7 @@ html{
   image-orientation: from-image;
   border: 1px solid #ddd;
   padding: 7px;
+  position: relative;
 }
 /*End of section-1*/
 
@@ -64,6 +76,7 @@ li{
 /*profiles*/
  .profiles{
      padding: 5rem 0;
+     position: relative;
  }
 
  .profile-wrapper{
