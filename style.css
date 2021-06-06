@@ -46,6 +46,8 @@ html{
    letter-spacing: 0.4rem;
    text-shadow: 0.4rem 0.4rem 0.4rem black;
    position: relative;
+   z-index: 1;
+   background-color: rgb(156, 41, 41);
  }
 
 .mushrooms img{
